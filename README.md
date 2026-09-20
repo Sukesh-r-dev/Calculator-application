@@ -1,31 +1,41 @@
-# Calculator Application
+<div align="center">
 
-A full-stack calculator application featuring a web-based frontend user interface and a Java backend API with persistent calculation history stored in a database.
+# 🧮 Calculator Application
+
+A modern, full-stack calculator application featuring a sleek web-based frontend and a robust Java backend API with persistent history storage.
+
+[Features](#-features) • [Tech Stack](#-tech-stack) • [Project Structure](#-project-structure) • [Setup & Installation](#-setup-and-installation)
+
+---
+
+</div>
 
 ## 🚀 Features
 
-* **Interactive Frontend:** Clean and responsive UI built with HTML, CSS, and JavaScript.
-* **Backend API:** Java-backed controller handling calculation requests and routing.
-* **Persistent History:** Database-backed storage leveraging Spring/JPA entities and repositories to track past calculation history.
+* **✨ Interactive UI:** Clean, responsive, and user-friendly interface built with vanilla JavaScript, HTML, and CSS.
+* **🔌 RESTful API:** Java-backed backend controller seamlessly routing calculation requests and logic.
+* **💾 Persistent History:** Database-backed storage using Spring/JPA entities and repositories to store and retrieve past calculations.
+
+---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Backend:** Java
-* **Database & Scripts:** SQL (`calculator_db`)
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Backend** | Java |
+| **Database** | SQL (`calculator_db`) |
+
+---
 
 ## 📂 Project Structure
 
-* `calculation.java` - Entity model mapping the calculation history table.
-* `calculationRepo.java` - Repository interface for database persistence operations.
-* `controller.java` - REST controller managing endpoints and API requests.
-* `database.sql` - SQL script to initialize the database and tables.
-* `index.html` - Calculator user interface markup.
-* `script.js` - Calculator logic and asynchronous frontend-to-backend communication.
-* `style.css` - Styling and layout configurations.
-
-## ⚙️ Setup and Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Sukesh-r-dev/Calculator-application.git](https://github.com/Sukesh-r-dev/Calculator-application.git)
+```text
+📦 Calculator-application
+ ┣ 📜 calculation.java      # Entity model for mapping calculation history records
+ ┣ 📜 calculationRepo.java  # Repository interface for database persistence operations
+ ┣ 📜 controller.java       # REST controller managing backend endpoints and requests
+ ┣ 📜 database.sql          # SQL initialization script for database and tables
+ ┣ 📜 index.html            # Main calculator user interface layout
+ ┣ 📜 script.js             # Calculator logic and async frontend-to-backend communication
+ ┗ 📜 style.css             # UI styling and responsive design configurations
